@@ -66,19 +66,19 @@
 
 ### The final cleaned and engineered dataset is saved as a CSV file, which will be used for model training in future milestones.
 # Features
-## 1️⃣ Structured Data Preparation
+## 1️ Structured Data Preparation
 
 ### The system prepares a clean and well-structured visa dataset by removing inconsistencies and standardizing formats for further analysis.
 
-## 2️⃣ Missing Value Handling
+## 2️ Missing Value Handling
 
 ### Missing or incomplete values in the dataset are automatically identified and handled to ensure data quality and reliability.
 
-## 3️⃣ Categorical Feature Encoding
+## 3️ Categorical Feature Encoding
 
 ### Text-based features such as education level, region of employment, and job type are converted into numerical form for machine learning compatibility.
 
-## 4️⃣ Feature Engineering
+## 4️ Feature Engineering
 
 ### Important attributes are refined to improve analytical performance, including:
 
@@ -88,7 +88,7 @@
 
 ### Wage-related attributes
 
-## 5️⃣ Exploratory Data Analysis (EDA)
+## 5️ Exploratory Data Analysis (EDA)
 
 ### The system performs detailed data analysis to understand:
 
@@ -98,14 +98,14 @@
 
 ### Relationships between features
 
-## 6️⃣ Correlation Analysis
+## 6️ Correlation Analysis
 
 ### Statistical correlation analysis is used to identify relationships between input features and visa processing outcomes.
 
-## 7️⃣ Visualization Support
+## 7️ Visualization Support
 
 ### Visual representations such as bar charts and correlation plots are generated to simplify data interpretation.
 
-## 8️⃣ Processed Dataset Export
+## 8️ Processed Dataset Export
 
 ### The final transformed dataset is saved as a CSV file, ready for machine learning model training in subsequent milestones.
