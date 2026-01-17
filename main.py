@@ -51,17 +51,9 @@ df["education_level"] = df["education_of_employee"].map({
     "Bachelor's": 1,
     "Master's": 2
 })
-
-# If there are any unexpected values, fill them with -1
 df["education_level"] = df["education_level"].fillna(-1)
-
-# Identify all categorical (object/string) columns
 categorical_cols = df.select_dtypes(include=['object']).columns
-
-# Initialize LabelEncoder
 le = LabelEncoder()
-
-# Apply label encoding to each categorical column
 for col in categorical_cols:
     df[col] = le.fit_transform(df[col].astype(str))
 
@@ -69,7 +61,6 @@ df.to_csv("visa_dataset_milestone2.csv", index=False)
 print("Milestone 2 data saved!")
 import pandas as pd
 df = pd.read_csv("visa_dataset_milestone2.csv")
-# Replace infinite values with NaN
 
 import numpy as np
 all_nan_cols = df.columns[df.isnull().all()]
@@ -129,29 +120,15 @@ import pandas as pd
 import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
-
-# Load dataset
 df = pd.read_csv("visa_dataset_milestone2.csv")
-
-# TARGET (processing time proxy)
 y = df["prevailing_wage"]
-
-# FEATURES
 X = df.drop(columns=["prevailing_wage", "case_id", "case_status"])
-
-# Handle NaNs
 X = X.fillna(X.mean())
-
-# Train-test split
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
-
-# Train model
 reg_model = RandomForestRegressor(n_estimators=100, random_state=42)
 reg_model.fit(X_train, y_train)
-
-# SAVE MODEL
 joblib.dump(reg_model, "processing_time_model.pkl")
 
 print("✅ processing_time_model.pkl saved successfully!")
@@ -230,6 +207,7 @@ with col1:
 
 st.markdown("---")
 st.markdown("<p style='text-align:center;'>© 2026 | AI-Enabled Visa Prediction System</p>", unsafe_allow_html=True)
+
 
 
 
