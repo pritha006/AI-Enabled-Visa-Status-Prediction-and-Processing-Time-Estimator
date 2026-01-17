@@ -228,10 +228,9 @@ with col1:
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-
-# ------------------ Footer ------------------
 st.markdown("---")
 st.markdown("<p style='text-align:center;'>© 2026 | AI-Enabled Visa Prediction System</p>", unsafe_allow_html=True)
+
 
 
 
