@@ -159,14 +159,12 @@ import streamlit as st
 import joblib
 import os
 
-# ------------------ Page Config ------------------
 st.set_page_config(
     page_title="Visa Processing Time Estimator",
     page_icon="🌍",
     layout="wide"
 )
 
-# ------------------ Custom CSS ------------------
 st.markdown("""
 <style>
 body {
@@ -192,13 +190,11 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-# ------------------ Header ------------------
 st.markdown("<h1 style='text-align:center;'>🌍 AI-Powered Visa Processing Time Estimator</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center;'>Predict visa processing time using AI-driven insights</p>", unsafe_allow_html=True)
 
 st.markdown("---")
 
-# ------------------ Sidebar Inputs ------------------
 st.sidebar.header("📝 Applicant Information")
 
 continent = st.sidebar.selectbox("Continent", ["Asia", "Europe", "North America", "South America", "Africa"])
@@ -211,7 +207,6 @@ employees = st.sidebar.number_input("Number of Employees", min_value=1)
 company_age = st.sidebar.number_input("Company Age (Years)", min_value=1)
 annual_wage = st.sidebar.number_input("Annual Wage (USD)", min_value=1000)
 
-# ------------------ Main Content ------------------
 col1, col2 = st.columns([2, 1])
 
 with col1:
@@ -233,19 +228,11 @@ with col1:
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-with col2:
-    st.markdown("<div class='card'>", unsafe_allow_html=True)
-    st.subheader("📌 Notes")
-    st.info("""
-    - Prediction is AI-based  
-    - Results may vary due to policy changes  
-    - Use as a guidance tool only  
-    """)
-    st.markdown("</div>", unsafe_allow_html=True)
 
 # ------------------ Footer ------------------
 st.markdown("---")
 st.markdown("<p style='text-align:center;'>© 2026 | AI-Enabled Visa Prediction System</p>", unsafe_allow_html=True)
+
 
 
 
