@@ -256,3 +256,4 @@ st.markdown("<p style='text-align:center;'>© 2026 | AI-Enabled Visa Prediction 
 
 
 
+
