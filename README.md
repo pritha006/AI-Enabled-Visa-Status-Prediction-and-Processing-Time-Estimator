@@ -17,7 +17,7 @@ Provide insights through visual analytics
 
 Deploy a user-friendly web application
 
-# 🧠 Machine Learning Approach
+##  🧠 Machine Learning Approach
 
 Classification Model: Predicts visa approval status
 
@@ -27,7 +27,7 @@ Algorithms Used: Random Forest, Logistic Regression
 
 Model Storage: Joblib (.pkl files)
 
-# ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 Programming: Python
 
@@ -39,7 +39,7 @@ UI: Streamlit
 
 Deployment: Streamlit Cloud
 
-# 🏗️ System Architecture
+## 🏗️ System Architecture
 
 1️ Data Collection
 2️ Data Ingestion
@@ -49,7 +49,7 @@ Deployment: Streamlit Cloud
 6️ Model Training & Evaluation
 7️ Web App Deployment
 
-# 📊 Key Features
+## 📊 Key Features
 
 Data cleaning and preprocessing
 
@@ -63,7 +63,7 @@ Real-time predictions via web interface
 
 Cloud deployment for public access
 
-# 📈 Visualizations Included
+## 📈 Visualizations Included
 
 Visa approval distribution
 
