@@ -1,13 +1,13 @@
-🌍 AI-Enabled Visa Status Prediction and Processing Time Estimator
-🔗 Live Application
+# 🌍 AI-Enabled Visa Status Prediction and Processing Time Estimator
+# 🔗 Live Application
 
-👉 https://ai-enabled-visa-status-prediction-and-processing-time-estimato.streamlit.app/
+# 👉 https://ai-enabled-visa-status-prediction-and-processing-time-estimato.streamlit.app/
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project uses Machine Learning to predict visa approval status and estimate visa processing time based on applicant and employer information. It aims to assist applicants by providing AI-driven insights and data-backed predictions.
 
-🎯 Objectives
+# 🎯 Objectives
 
 Predict visa approval status (Classification)
 
@@ -17,7 +17,7 @@ Provide insights through visual analytics
 
 Deploy a user-friendly web application
 
-🧠 Machine Learning Approach
+# 🧠 Machine Learning Approach
 
 Classification Model: Predicts visa approval status
 
@@ -27,7 +27,7 @@ Algorithms Used: Random Forest, Logistic Regression
 
 Model Storage: Joblib (.pkl files)
 
-⚙️ Tech Stack
+# ⚙️ Tech Stack
 
 Programming: Python
 
@@ -39,19 +39,17 @@ UI: Streamlit
 
 Deployment: Streamlit Cloud
 
-IDE: VS Code
+# 🏗️ System Architecture
 
-🏗️ System Architecture
+1️ Data Collection
+2️ Data Ingestion
+3️ Data Preprocessing
+4️ Feature Engineering
+5️ Exploratory Data Analysis (EDA)
+6️ Model Training & Evaluation
+7️ Web App Deployment
 
-1️⃣ Data Collection
-2️⃣ Data Ingestion
-3️⃣ Data Preprocessing
-4️⃣ Feature Engineering
-5️⃣ Exploratory Data Analysis (EDA)
-6️⃣ Model Training & Evaluation
-7️⃣ Web App Deployment
-
-📊 Key Features
+# 📊 Key Features
 
 Data cleaning and preprocessing
 
@@ -65,7 +63,7 @@ Real-time predictions via web interface
 
 Cloud deployment for public access
 
-📈 Visualizations Included
+# 📈 Visualizations Included
 
 Visa approval distribution
 
