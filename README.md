@@ -1,3 +1,9 @@
+# AI-Enabled-Visa-Status-Prediction-and-Processing-Time-Estimator
+
+# Live App
+
+# https://ai-enabled-visa-status-prediction-and-processing-time-estimato.streamlit.app/
+
 # Objectives
 
 ### Predict visa approval status (Classification)
@@ -109,3 +115,54 @@
 ## 8️ Processed Dataset Export
 
 ### The final transformed dataset is saved as a CSV file, ready for machine learning model training in subsequent milestones.
+
+# Problem Statement
+
+### Many visa applicants face uncertainty regarding visa approval outcomes and processing durations. Manual evaluation of applications is time-consuming and prone to inconsistencies. This project leverages Machine Learning techniques to predict visa approval status and estimate processing time, helping applicants and organizations make informed decisions.
+
+# Machine Learning Models Used
+
+## Classification Model:
+
+### Logistic Regression / Random Forest Classifier
+
+### Used to predict visa approval status (Approved / Denied)
+
+## Regression Model:
+
+### Linear Regression / Random Forest Regressor
+
+### Used to estimate visa processing time (in days)
+
+# Model Training Pipeline
+### Data preprocessing
+### Feature scaling and encoding
+### Train-test split
+### Model training and validation
+### Model persistence using .pkl files
+
+# Application Workflow 
+
+### 1 User inputs visa application details
+### 2 Data is preprocessed in real-time
+### 3 Trained ML models generate predictions
+### 4️ Results are displayed via Streamlit UI
+### 5️ Visual insights support decision-making
+
+# User Interface (UI)
+### Built using Streamlit with:
+
+### Interactive input fields
+
+### Real-time prediction output
+
+### Clean and responsive design
+
+# Deployment
+### Platform: Streamlit Cloud
+### Repository: GitHub
+### Deployment Type: Cloud-based web application
+### Live URL:
+
+## https://ai-enabled-visa-status-prediction-and-processing-time-estimato.streamlit.app/
+
