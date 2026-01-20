@@ -1,13 +1,13 @@
-# 🌍 AI-Enabled Visa Status Prediction and Processing Time Estimator
-# 🔗 Live Application
+## 🌍 AI-Enabled Visa Status Prediction and Processing Time Estimator
+## 🔗 Live Application
 
-# 👉 https://ai-enabled-visa-status-prediction-and-processing-time-estimato.streamlit.app/
+## 👉 https://ai-enabled-visa-status-prediction-and-processing-time-estimato.streamlit.app/
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project uses Machine Learning to predict visa approval status and estimate visa processing time based on applicant and employer information. It aims to assist applicants by providing AI-driven insights and data-backed predictions.
 
-# 🎯 Objectives
+## 🎯 Objectives
 
 Predict visa approval status (Classification)
 
